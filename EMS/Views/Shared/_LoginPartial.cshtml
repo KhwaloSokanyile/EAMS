@@ -1,0 +1,25 @@
+﻿@using Microsoft.AspNetCore.Identity
+
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+<ul class="navbar-nav">
+@if (SignInManager.IsSignedIn(User))
+{
+    <li class="nav-item">
+        <a id="manage" class="nav-link text-light" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @(User.FindFirst("FirstName").Value +" "+ User.FindFirst("LastName").Value)</a>
+    </li>
+    <li class="nav-item">
+         <a class="btn btn-outline-primary" asp-controller="SignUp" asp-action="Logout">Logout</a>
+    </li>
+}
+else
+{
+    <li class="nav-item">
+            <a class="btn btn-outline-primary" asp-controller="SignUp" asp-action="SignUp">Register</a>
+    </li>
+    <li class="nav-item">
+            <a class="btn btn-outline-primary" asp-controller="SignUp" asp-action="SignIn">Login</a>
+    </li>
+}
+</ul>

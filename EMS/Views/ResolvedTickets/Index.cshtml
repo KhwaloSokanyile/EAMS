@@ -1,0 +1,130 @@
+﻿@model IEnumerable<EMS.Models.ResolvedTicket>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+<title>Admins</title>
+<h1>Resolved Tickets</h1>
+<div class="row">
+    <div class="col-4">
+        <main class="d-flex flex-nowrap">
+            <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark" style="width: 280px;">
+                <a asp-action="Index" asp-controller="Admins">
+                    Admins
+                </a>
+                <hr>
+                <ul class="nav nav-pills flex-column mb-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-action="Index" asp-controller="Employees">
+                            Manage Employees
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-dark" asp-action="Index" asp-controller="BuildSystems">
+                            Manage Systems
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-dark" asp-action="Index" asp-controller="ReturnedSystems">
+                            Returned Systems
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-dark" asp-action="Index" asp-controller="Assets">
+                            Manage Assets
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-dark" asp-action="Index" asp-controller="ReturnedAssets">
+                            Returned Assets
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-dark" asp-action="Index" asp-controller="Tickets">
+                            Tickets
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-dark" asp-action="Index" asp-controller="AssignedTickets">
+                            Assign Ticket
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-dark" asp-action="Index" asp-controller="ResolvedTickets">
+                            Resolved Tickets
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </main>
+    </div>
+    <div class="col-8">
+        <p>
+            <a asp-action="Create">Create New</a>
+        </p>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Name)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Surname)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.EmployeeCode)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Date)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Resolved)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Admin)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Ticket)
+                    </th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Surname)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.EmployeeCode)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Date)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Resolved)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Admin.AdminId)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Ticket.TickectID)
+                        </td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.ResolveTickectID">Edit</a> |
+                            <a asp-action="Details" asp-route-id="@item.ResolveTickectID">Details</a> |
+                            <a asp-action="Delete" asp-route-id="@item.ResolveTickectID">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+

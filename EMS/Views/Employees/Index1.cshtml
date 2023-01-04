@@ -1,0 +1,54 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<title>Employees</title>
+<h1>Employees Portal</h1>
+<div class="row">
+    <div class="col-4">
+        <main class="d-flex flex-nowrap">
+            <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark" style="width: 280px;">
+                <a asp-action="Index" asp-controller="Admins">
+                    Admins
+                </a>
+                <hr>
+                <ul class="nav nav-pills flex-column mb-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-action="Create" asp-controller="BuildSystems">
+                            Build System
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-action="Details" asp-controller="BuildSystems">
+                            View Your System
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-dark" asp-action="Create" asp-controller="Assets">
+                            Request Asset
+                        </a>
+                    </li>
+                     <li>
+                        <a class="nav-link text-dark" asp-action="Details" asp-controller="Assets">
+                            Assets In Your Possession
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-dark" asp-action="Create" asp-controller="Tickets">
+                            Create Ticket
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-dark" asp-action="Details" asp-controller="Tickets">
+                            Your Tickets
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </main>
+    </div>
+    <div class="col-8">
+      
+    </div>
+</div>
+
