@@ -5,6 +5,26 @@
       "PackagePath": "staticwebassets\\EMS.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\Assets.jpg",
+      "PackagePath": "staticwebassets\\Assets.jpg"
+    },
+    {
+      "Id": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\AssetsP.jpg",
+      "PackagePath": "staticwebassets\\AssetsP.jpg"
+    },
+    {
+      "Id": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\Back.jpeg",
+      "PackagePath": "staticwebassets\\Back.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\Register.jpg",
+      "PackagePath": "staticwebassets\\Register.jpg"
+    },
+    {
+      "Id": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\SignUp.jpg",
+      "PackagePath": "staticwebassets\\SignUp.jpg"
+    },
+    {
       "Id": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -245,8 +265,24 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\return.jpg",
+      "PackagePath": "staticwebassets\\return.jpg"
+    },
+    {
       "Id": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\s.jpg",
       "PackagePath": "staticwebassets\\s.jpg"
+    },
+    {
+      "Id": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\system.jpg",
+      "PackagePath": "staticwebassets\\system.jpg"
+    },
+    {
+      "Id": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\tickets.jpg",
+      "PackagePath": "staticwebassets\\tickets.jpg"
+    },
+    {
+      "Id": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\view system.jpg",
+      "PackagePath": "staticwebassets\\view system.jpg"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.EMS.Microsoft.AspNetCore.StaticWebAssets.props",
