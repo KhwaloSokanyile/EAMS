@@ -26,6 +26,11 @@ namespace EMS.Controllers
             return View(await eMSContext.ToListAsync());
         }
 
+        public IActionResult Index1()
+        {
+            return View();
+        }
+
         // GET: Employees/Details/5
         public async Task<IActionResult> Details(int? id)
         {
