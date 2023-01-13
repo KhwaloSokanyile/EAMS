@@ -1,4 +1,6 @@
-﻿@{
+﻿@model IEnumerable<EMS.Models.BuildSystem>
+
+@{
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
@@ -50,36 +52,38 @@
     <div class="col-8">
         <div class="row">
             <div class="col-4">
-                <img src="~/System.jpg" style='height: 177px; width: 284px' />
-                <p>Build System</p>
+                <img src="~/BuildSystem.jpg" style='height: 177px; width: 284px' />
+                <a class="text-dark" asp-area="" asp-controller="BuildSystems" asp-action="Create">Build System</a>
             </div>
             <br />
             <br />
             <div class="col-4">
                 <img src="~/view system.jpg" style='height: 177px; width: 284px' />
-                <p>View System</p>
+                <a class="text-dark" asp-area="" asp-controller="BuildSystems" asp-action="Details">View Your System</a>
             </div>
             <br />
             <div class="col-4">
                 <img src="~/Assets.jpg" />
-                <p>Request Asset</p>
+                <a class="text-dark" asp-area="" asp-controller="Assets" asp-action="Create">Request Asset</a>
             </div>
         </div>
+        <br/>
+        <br/>
         <div class="row">
             <div class="col-4">
                 <img src="~/AssetsP.jpg" style='height: 177px; width: 284px' />
-                <p>Assets in your possesion</p>
+                <a class="text-dark" asp-area="" asp-controller="Assets" asp-action="Details">Assets in your possession</a>
             </div>
             <br />
-            <br/>
+            <br />
             <div class="col-4">
                 <img src="~/tickets.jpg" style='height: 177px; width: 284px' />
-                <p>Create Ticket</p>
+                <a class="text-dark" asp-area="" asp-controller="Tickets" asp-action="Create">Create Ticket</a>
             </div>
             <br />
             <div class="col-4">
-                <img src="~/return.jpg" style='height: 177px; width: 284px' />
-                <p>Your Tickets</p>
+                <img src="~/Ticket.jpg" style='height: 177px; width: 284px' />
+                <a class="text-dark" asp-area="" asp-controller="Tickets" asp-action="Details">View Your Tickets</a>
             </div>
         </div>
     </div>

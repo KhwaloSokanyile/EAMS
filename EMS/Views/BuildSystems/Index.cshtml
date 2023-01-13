@@ -63,7 +63,7 @@
         <p>
             <a asp-action="Create">Create New</a>
         </p>
-        <table class="table">
+        <table class="table-hover">
             <thead>
                 <tr>
                     <th>
@@ -131,7 +131,7 @@
                             @Html.DisplayFor(modelItem => item.Admin.AdminId)
                         </td>
                         <td>
-                            @Html.DisplayFor(modelItem => item.Employee.Department)
+                            @Html.DisplayFor(modelItem => item.Employee.EmployeeID)
                         </td>
                         <td>
                             <a asp-action="Edit" asp-route-id="@item.BuildID">Edit</a> |
