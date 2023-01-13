@@ -10,76 +10,94 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Create</title>
-       <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/EMS.styles.css" asp-append-version="true" />
 </head>
 <body>
 
-<h4>BuildSystem</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Create">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Name" class="control-label"></label>
-                <input asp-for="Name" class="form-control" />
-                <span asp-validation-for="Name" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Surname" class="control-label"></label>
-                <input asp-for="Surname" class="form-control" />
-                <span asp-validation-for="Surname" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="SystemName" class="control-label">System Name</label>
-                <input asp-for="SystemName" class="form-control" />
-                <span asp-validation-for="SystemName" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="EmployeeCode" class="control-label">Employee Code</label>
-                <input asp-for="EmployeeCode" class="form-control" />
-                <span asp-validation-for="EmployeeCode" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="MemorySize" class="control-label"></label>
-                <input asp-for="MemorySize" class="form-control" />
-                <span asp-validation-for="MemorySize" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Mouse" class="control-label"></label>
-                <input asp-for="Mouse" class="form-control" />
-                <span asp-validation-for="Mouse" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Keyboard" class="control-label"></label>
-                <input asp-for="Keyboard" class="form-control" />
-                <span asp-validation-for="Keyboard" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Monitor" class="control-label"></label>
-                <input asp-for="Monitor" class="form-control" />
-                <span asp-validation-for="Monitor" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="adminId" class="control-label"></label>
-                <select asp-for="adminId" class ="form-control" asp-items="ViewBag.adminId"></select>
-            </div>
-            <div class="form-group">
-                <label asp-for="employeeId" class="control-label"></label>
-                <select asp-for="employeeId" class ="form-control" asp-items="ViewBag.employeeId"></select>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
+    <h4>BuildSystem</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="Create">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Name" class="control-label"></label>
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Surname" class="control-label"></label>
+                    <input asp-for="Surname" class="form-control" />
+                    <span asp-validation-for="Surname" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="EmployeeCode" class="control-label">Employee Code</label>
+                    <input asp-for="EmployeeCode" class="form-control" />
+                    <span asp-validation-for="EmployeeCode" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="SystemName" class="control-label">System Name</label>
+                    <select asp-for="SystemName" class="form-control">
+                        <option value="MacBook">Apple Macbook</option>
+                        <option value="Dell">Dell</option>
+                        <option value="HP">HP</option>
+                        <option value="Lenovo">Lenovo</option>
+                    </select>
+                    <span asp-validation-for="SystemName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="MemorySize" class="control-label"></label>
+                    <select asp-for="MemorySize" class="form-control">
+                        <option value="128">128</option>
+                        <option value="256">256</option>
+                        <option value="512">512</option>
+                        <option value="1024">1024</option>
+                    </select>
+                    <span asp-validation-for="MemorySize" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Mouse" class="control-label"></label>
+                    <select asp-for="Mouse" class="form-control">
+                        <option value="No">No</option>
+                        <option value="Yes">Yes</option>
+                    </select>
+                    <span asp-validation-for="Mouse" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Keyboard" class="control-label"></label>
+                    <select asp-for="Keyboard" class="form-control">
+                        <option value="No">No</option>
+                        <option value="Yes">Yes</option>
+                    </select>
+                    <span asp-validation-for="Keyboard" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Monitor" class="control-label"></label>
+                    <select asp-for="Monitor" class="form-control">
+                        <option value="No">No</option>
+                        <option value="Yes">Yes</option>
+                    </select>
+                    <span asp-validation-for="Monitor" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="adminId" class="control-label"></label>
+                    <select asp-for="adminId" class="form-control" asp-items="ViewBag.adminId"></select>
+                </div>
+                <div class="form-group">
+                    <label asp-for="employeeId" class="control-label"></label>
+                    <select asp-for="employeeId" class="form-control" asp-items="ViewBag.employeeId"></select>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+        <div class="col-md-8">
+            <img src="~/CreateSystem.jpg" />
+        </div>
     </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
-</div>
 
 </body>
 </html>
