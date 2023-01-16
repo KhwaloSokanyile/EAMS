@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KsfUzF442edefgix3M/d+0lOnPvQdtxy9qpJrmMJpMg=",
+  "Hash": "pNhZfO3asb8Q2bsglRZAnu3c1nPux2ML8bzveW4PcNw=",
   "Source": "EMS",
   "BasePath": "_content/EMS",
   "Mode": "Default",
@@ -1071,6 +1071,23 @@
       "OriginalItemSpec": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\EMS.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\Admin.jpg",
+      "SourceId": "EMS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\",
+      "BasePath": "_content/EMS",
+      "RelativePath": "Admin.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Admin.jpg"
+    },
+    {
       "Identity": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\Assets.jpg",
       "SourceId": "EMS",
       "SourceType": "Discovered",
@@ -1122,6 +1139,23 @@
       "OriginalItemSpec": "wwwroot\\assetss.jpg"
     },
     {
+      "Identity": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\assetts.jpg",
+      "SourceId": "EMS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\",
+      "BasePath": "_content/EMS",
+      "RelativePath": "assetts.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assetts.jpg"
+    },
+    {
       "Identity": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\AssignTicket.jpg",
       "SourceId": "EMS",
       "SourceType": "Discovered",
@@ -1156,23 +1190,6 @@
       "OriginalItemSpec": "wwwroot\\Back.jpeg"
     },
     {
-      "Identity": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\Back.jpg",
-      "SourceId": "EMS",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\",
-      "BasePath": "_content/EMS",
-      "RelativePath": "Back.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Back.jpg"
-    },
-    {
       "Identity": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\BuildSystem.jpg",
       "SourceId": "EMS",
       "SourceType": "Discovered",
@@ -1188,6 +1205,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\BuildSystem.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\buildSystemm.jpg",
+      "SourceId": "EMS",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\",
+      "BasePath": "_content/EMS",
+      "RelativePath": "buildSystemm.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\buildSystemm.jpg"
     },
     {
       "Identity": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\CreateSystem.jpg",
@@ -1224,12 +1258,12 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\employees.jpg",
+      "Identity": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\Employees.jpg",
       "SourceId": "EMS",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\",
       "BasePath": "_content/EMS",
-      "RelativePath": "employees.jpg",
+      "RelativePath": "Employees.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1238,7 +1272,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\employees.jpg"
+      "OriginalItemSpec": "wwwroot\\Employees.jpg"
     },
     {
       "Identity": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\favicon.ico",
@@ -2295,12 +2329,12 @@
       "OriginalItemSpec": "wwwroot\\return.jpg"
     },
     {
-      "Identity": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\ReturnSystem.jpg",
+      "Identity": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\returnSystem.png",
       "SourceId": "EMS",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\",
       "BasePath": "_content/EMS",
-      "RelativePath": "ReturnSystem.jpg",
+      "RelativePath": "returnSystem.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2309,7 +2343,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\ReturnSystem.jpg"
+      "OriginalItemSpec": "wwwroot\\returnSystem.png"
     },
     {
       "Identity": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\s.jpg",
