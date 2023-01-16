@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\EMS.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\Admin.jpg",
+      "PackagePath": "staticwebassets\\Admin.jpg"
+    },
+    {
       "Id": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\Assets.jpg",
       "PackagePath": "staticwebassets\\Assets.jpg"
     },
@@ -21,10 +25,6 @@
       "PackagePath": "staticwebassets\\Back.jpeg"
     },
     {
-      "Id": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\Back.jpg",
-      "PackagePath": "staticwebassets\\Back.jpg"
-    },
-    {
       "Id": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\BuildSystem.jpg",
       "PackagePath": "staticwebassets\\BuildSystem.jpg"
     },
@@ -33,16 +33,16 @@
       "PackagePath": "staticwebassets\\CreateSystem.jpg"
     },
     {
+      "Id": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\Employees.jpg",
+      "PackagePath": "staticwebassets\\Employees.jpg"
+    },
+    {
       "Id": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\Register.jpg",
       "PackagePath": "staticwebassets\\Register.jpg"
     },
     {
       "Id": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\ResolvedTicket.png",
       "PackagePath": "staticwebassets\\ResolvedTicket.png"
-    },
-    {
-      "Id": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\ReturnSystem.jpg",
-      "PackagePath": "staticwebassets\\ReturnSystem.jpg"
     },
     {
       "Id": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\SignUp.jpg",
@@ -57,12 +57,16 @@
       "PackagePath": "staticwebassets\\assetss.jpg"
     },
     {
-      "Id": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\assetts.jpg",
+      "PackagePath": "staticwebassets\\assetts.jpg"
     },
     {
-      "Id": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\employees.jpg",
-      "PackagePath": "staticwebassets\\employees.jpg"
+      "Id": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\buildSystemm.jpg",
+      "PackagePath": "staticwebassets\\buildSystemm.jpg"
+    },
+    {
+      "Id": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\favicon.ico",
@@ -303,6 +307,10 @@
     {
       "Id": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\return.jpg",
       "PackagePath": "staticwebassets\\return.jpg"
+    },
+    {
+      "Id": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\returnSystem.png",
+      "PackagePath": "staticwebassets\\returnSystem.png"
     },
     {
       "Id": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\wwwroot\\s.jpg",
