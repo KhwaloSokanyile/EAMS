@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\EMS.csproj": {}
+    "C:\\Users\\KHWALO\\Documents\\EAMS\\EMS\\EMS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\EMS.csproj": {
+    "C:\\Users\\KHWALO\\Documents\\EAMS\\EMS\\EMS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\EMS.csproj",
+        "projectUniqueName": "C:\\Users\\KHWALO\\Documents\\EAMS\\EMS\\EMS.csproj",
         "projectName": "EMS",
-        "projectPath": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\EMS.csproj",
-        "packagesPath": "C:\\Users\\khwal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\khwal\\source\\repos\\EMS\\EMS\\obj\\",
+        "projectPath": "C:\\Users\\KHWALO\\Documents\\EAMS\\EMS\\EMS.csproj",
+        "packagesPath": "C:\\Users\\KHWALO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\KHWALO\\Documents\\EAMS\\EMS\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\khwal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\KHWALO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -68,6 +73,10 @@
               "target": "Package",
               "version": "[6.0.12, )"
             },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.17.2, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.11, )"
@@ -92,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
