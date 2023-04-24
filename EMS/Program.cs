@@ -7,7 +7,7 @@ using EMS.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<EMSContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("EMSContext") ?? throw new InvalidOperationException("Connection string 'EMSContext' not found.")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("MyDatabase") ?? throw new InvalidOperationException("Connection string 'EMSContext' not found.")));
 
 
 builder.Services.AddDefaultIdentity<ApplicationUser>().AddRoles<IdentityRole>().AddEntityFrameworkStores<EMSContext>();
